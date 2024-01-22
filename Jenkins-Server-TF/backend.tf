@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     bucket         = "roopak-tetris-backend"
     region         = "us-east-1"
-    key            = "tf-state-file"
+    key            = "End-to-End-Kubernetes-DevSecOps-Tetris-Project/Jenkins-Server-TF/terraform.tfstate"
     dynamodb_table = "Lock-Files"
     encrypt        = true
   }
